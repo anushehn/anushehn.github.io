@@ -1,0 +1,173 @@
+
+
+h1 {
+    
+    margin-left: 20px;
+    color: whitesmoke;
+} 
+.menu{
+  position: fixed;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  text-shadow: 0 0 5px white;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%
+}
+
+.menu a{
+  font-size: 18px;
+  padding: 15px 0;
+  color: whitesmoke;
+  font-weight: 700;
+  text-decoration: none;
+   
+}
+section{
+  display: inline-block;
+  width: 100%;
+  height: 100vh;
+}
+
+/*.content .section:nth-child(1){
+
+
+}
+.content .section:nth-child(2){
+
+
+}.content .section:nth-child(3){
+
+
+}*/
+section h2{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 15em;
+  color: 00000050;
+
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+    h1 {
+        font-size: 70px;
+        color:whitesmoke; 
+        font-family:'Dancing Script', cursive;
+        padding: 200px;
+        text-align: center;
+        -webkit-animation: p 1s ease-in-out infinite alternate;
+        -moz-animation: p 1s ease-in-out infinite alternate;
+        animation: p 1s ease-in-out infinite alternate;
+      } 
+
+      p {
+        font-size: 13px; 
+        color: whitesmoke;
+        text-align: justify; 
+        font-family: 'Work Sans', sans-serif;
+        padding-left: 100px;
+        padding-right: 100px; 
+        padding-top: 75px; 
+      }
+
+      @-webkit-keyframes p {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4668C7, 0 0 40px #4668C7, 0 0 50px #4668C7, 0 0 60px #4668C7, 0 0 70px #4668C7;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #93A5D6, 0 0 40px #93A5D6, 0 0 50px #93A5D6, 0 0 60px #93A5D6, 0 0 70px #93A5D6, 0 0 80px #93A5D6;
+        }
+      }
+        .topnav {
+            background-color:black;
+            overflow: hidden;
+          }
+          
+          /* Navigation bar */
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+         
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+         
+          .topnav a.active {
+            background-color: black;
+            color: white;
+          }
+          .img {
+            display: block;
+            padding-top: 60px;
+            padding-right: 710px;
+            
+            /*padding-left: 50px;
+        padding-right: 50px; 
+        padding-top: 75px; */
+            
+          }
+
+          .img1{
+           
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /*padding-left: 50px;
+        padding-right: 50px; 
+        padding-top: 75px; */
+            
+          }
+
+          .img2{
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /*padding-left: 50px;
+        padding-right: 50px; 
+        padding-top: 75px; */
+          
+          }
+          .row {
+            display: flex;
+          }
+          
+          .column {
+            flex: 33.33%;
+            padding: 5px;
+          }
+body {
+    background-image: url('https://wallpapercave.com/wp/wp2863958.gif');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+}
+
+h4{
+  text-align: center;
+  font-size: 13px; 
+        color: whitesmoke;
+
+        font-family: 'Work Sans', sans-serif
+}
+
+
